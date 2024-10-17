@@ -1,0 +1,25 @@
+name: image_magick_q8_but_with_working_linux_this_time
+description: Dart bindings for ImageMagick C library which is used to edit images.
+version: 1.0.0
+repository: "https://github:com/ArcaneArts/image_magick_q8_but_with_working_linux_this_time"
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+  flutter: ">=2.11.0"
+dependencies:
+  plugin_platform_interface: ^2.0.2
+  ffi: ^2.0.1
+dev_dependencies:
+  ffigen: ^7.2.0
+  flutter_lints: ^2.0.0
+flutter:
+  plugin:
+    platforms:
+      android:
+        ffiPlugin: true
+        dartPluginClass: ImageMagickFFIPlugin
+      linux:
+        ffiPlugin: true
+        dartPluginClass: ImageMagickFFIPlugin
+      windows:
+        ffiPlugin: true
+        dartPluginClass: ImageMagickFFIPlugin
