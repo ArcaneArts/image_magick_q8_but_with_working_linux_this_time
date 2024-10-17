@@ -1,7 +1,6 @@
 name: image_magick_q8_but_with_working_linux_this_time
 description: Dart bindings for ImageMagick C library which is used to edit images.
 version: 1.0.0
-repository: "https://github:com/ArcaneArts/image_magick_q8_but_with_working_linux_this_time"
 environment:
   sdk: '>=2.19.0 <3.0.0'
   flutter: ">=2.11.0"
